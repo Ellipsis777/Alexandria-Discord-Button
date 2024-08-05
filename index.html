@@ -3,33 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Button</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        .custom-button {
-            background-color: #7289da;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            border: none;
-            cursor: pointer;
-        }
-        .custom-button:hover {
-            background-color: #5a6b9a;
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
-    <button class="custom-button" onclick="window.location.href='https://discord.gg/RHGn44ct'">Join Our Discord</button>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <button onclick="window.location.href='https://discord.gg/RHGn44ct'" style="padding: 10px 20px; font-size: 16px; color: white; background-color: #7289da; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;">
+            Join our Community on Discord 
+        </button>
+    </div>
 </body>
 </html>
