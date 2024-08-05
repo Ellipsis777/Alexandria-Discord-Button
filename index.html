@@ -8,14 +8,32 @@
         body {
             margin: 0;
             overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .custom-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #7289da;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .custom-button:hover {
+            background-color: #5a6b9a;
         }
     </style>
 </head>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <button onclick="window.location.href='https://discord.gg/RHGn44ct'" style="padding: 10px 20px; font-size: 16px; color: white; background-color: #7289da; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;">
-            Join our Community on Discord 
-        </button>
-    </div>
+    <button class="custom-button" onclick="window.location.href='https://discord.gg/RHGn44ct'">
+        Join our Community on Discord
+    </button>
 </body>
 </html>
